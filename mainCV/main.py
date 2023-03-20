@@ -3,7 +3,7 @@ import asyncio
 import pyperclip
 
 # Replace YOUR_TOKEN with your bot token
-bot = telegram.Bot(token=TOKEN)
+bot = telegram.Bot(token='your token HERE')
 last_copied_message = ""
 
 async def main():
