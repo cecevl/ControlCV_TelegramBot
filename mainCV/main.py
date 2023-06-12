@@ -1,9 +1,9 @@
 import telegram
 import asyncio
 import pyperclip
+from mainbot import TOKEN
 
-# Replace YOUR_TOKEN with your bot token
-bot = telegram.Bot(token='your token HERE')
+bot = telegram.Bot(token=TOKEN)
 last_copied_message = ""
 
 async def main():
@@ -27,3 +27,8 @@ async def get_last_message():
         return chat_id, message
 
 asyncio.run(main())
+
+def happyfunktion():
+    print('wwww')
+
+happyfunktion()
